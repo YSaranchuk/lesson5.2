@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html; charset=utf-8");
 require_once './vendor/autoload.php';
 session_start();
 $loader = new Twig_Loader_Filesystem('./templates');
